@@ -396,3 +396,8 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+web-BerkStan.txt
+roadNet-CA.txt
+roadNet-PA.txt
+WikiTalk.txt
