@@ -1,0 +1,23 @@
+# BFS with CUDA
+
+## Description
+The application performs a graph search through-from-slice (BFS) algorithm using CUDA. It accepts a graph in the form of a list of edges from an input file, and writes the results to a specified output file. It is possible to specify a start vertex and an end vertex for the algorithm.
+
+## Usage
+The application requires four command line arguments: input file name, output file name, start vertex and end vertex. It is also possible to display help using the `-help` argument.
+
+### Syntax
+[name_program] -f [name_file_graph] -o [name_file_output] -s [start vertex] -e [end vertex]
+
+### Example
+./bfs -f graf.txt -o result.txt -s 0 -e 10
+
+In the above example, the program reads the graph from the file `graph.txt`, runs the BFS algorithm from vertex 0 to 10, and writes the result to the file `result.txt`.
+
+## Help
+To view help on how to use the program, use:
+[program_name] -help
+
+
+## Author
+Bartosz Maj
